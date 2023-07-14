@@ -8,23 +8,30 @@ import android.media.MediaPlayer
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.MediaController
 import android.widget.TextView
 import android.widget.VideoView
 import androidx.core.view.isVisible
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
+const val BASEURL= "https://api-obstacle-dodge.vercel.app/ "
+const val BASEUR= "https://api-obstacle-dodge.vercel.app/ "
 class MainActivity2 : AppCompatActivity() {
     private lateinit var hsw:String
     private lateinit var media: MediaPlayer
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
-
         setContentView(R.layout.activity_main2)
-
         media= MediaPlayer.create(this,R.raw.creepy)
         media.start()
         media.isLooping=true
@@ -38,8 +45,6 @@ class MainActivity2 : AppCompatActivity() {
         val sf=getSharedPreferences("MY", Context.MODE_PRIVATE)
         hsw= sf.getString("highscore","").toString()
         hs.text=hsw
-
-
         val info:ImageButton=findViewById(R.id.info)
         val close:ImageButton=findViewById(R.id.close)
         val rules:ImageView=findViewById(R.id.rules)
@@ -55,7 +60,7 @@ class MainActivity2 : AppCompatActivity() {
         }
         s.setOnClickListener {
             media.stop()
-            val intent = Intent(this, MainActivity1::class.java)
+            val intent = Intent(this, playerz::class.java)
             intent.putExtra("highscore",hsw)
             startActivity(intent)
         }
@@ -65,4 +70,6 @@ class MainActivity2 : AppCompatActivity() {
         mydialog1.setCancelable(true)
 
     }
+
+
 }

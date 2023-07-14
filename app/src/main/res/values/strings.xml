@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">capyy</string>
+    <string name="title_activity_playerz">playerz</string>
+    <string name="large_text">
+         CAPYBARA \n\n
+        Capy bara is an animal , known for its indespicable meme presence due to its soo cool attitude\n
+        towards threats faced , with one of its fierce rival being THE Pelican and lucky capy has got some\n
+        jetpacks to its aid\n\n
+        Player\n\n\n
+
+        PELICAN\n\n
+        Pelican is the bird , which is known for its non-terminating rivalry with the capybara, having\n
+        the ability to fly it easily evades target and chases the capyyyy\n\n
+        Chaser\n\n\n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .
+    </string>
+    <string name="action_settings">Settings</string>
 </resources>

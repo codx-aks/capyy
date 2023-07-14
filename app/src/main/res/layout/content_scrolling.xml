@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    android:background="#D16D3E"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".playerz"
+    tools:showIn="@layout/activity_playerz">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="800dp"
+        android:layout_height="700dp"
+        android:background="#C64906">
+
+        <ImageView
+            android:id="@+id/c2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:alpha="0.60"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="@+id/cn2"
+            app:srcCompat="@drawable/capybara" />
+
+        <ImageView
+            android:id="@+id/c3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:alpha="0.60"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="@+id/cn3"
+            app:srcCompat="@drawable/capybara" />
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:alpha="0.60"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="@+id/pn2"
+            app:srcCompat="@drawable/capybara" />
+
+        <ImageView
+            android:id="@+id/p3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:alpha="0.60"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="@+id/pn3"
+            app:srcCompat="@drawable/capybara" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="120dp"
+            android:layout_height="156dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="@font/butcherman"
+            android:text="PLAYERS AND CHASERS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pn3"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pt2" />
+
+        <TextView
+            android:id="@+id/pd3"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pn3" />
+
+        <TextView
+            android:id="@+id/pt3"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/akaya_telivigala"
+
+            android:textColor="#000000"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pd3" />
+
+        <TextView
+            android:id="@+id/pt1"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pd1" />
+
+        <TextView
+            android:id="@+id/pd1"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pn1" />
+
+        <TextView
+            android:id="@+id/pn1"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="290dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="575dp"
+            android:layout_height="900dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="4828dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/large_text"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/c1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:alpha="0.60"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="@+id/cn1"
+            app:srcCompat="@drawable/capybara" />
+
+        <TextView
+            android:id="@+id/pd2"
+
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pn2" />
+
+        <TextView
+            android:id="@+id/pt2"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/akaya_telivigala"
+
+            android:textColor="#000000"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pd2" />
+
+        <TextView
+            android:id="@+id/pn2"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pt1" />
+
+        <TextView
+            android:id="@+id/cn1"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pt3" />
+
+        <TextView
+            android:id="@+id/ct1"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cd1" />
+
+        <TextView
+            android:id="@+id/cd1"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cn1" />
+
+        <TextView
+            android:id="@+id/cd2"
+
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cn2" />
+
+        <TextView
+            android:id="@+id/ct2"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/akaya_telivigala"
+
+            android:textColor="#000000"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cd2" />
+
+        <TextView
+            android:id="@+id/cn2"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ct1" />
+
+        <TextView
+            android:id="@+id/cd3"
+
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cn3" />
+
+        <TextView
+            android:id="@+id/ct3"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/akaya_telivigala"
+
+            android:textColor="#000000"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cd3" />
+
+        <TextView
+            android:id="@+id/cn3"
+            android:layout_width="575dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ct2" />
+
+        <ImageView
+            android:id="@+id/p1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:alpha="0.60"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="@+id/pn1"
+            app:srcCompat="@drawable/capybara" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:text="NEXT"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

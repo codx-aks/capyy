@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C64906"
+    tools:context=".info">
+
+    <TextView
+        android:id="@+id/s5"
+        android:layout_width="125dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/l1"
+        app:layout_constraintTop_toBottomOf="@+id/s4" />
+
+    <TextView
+        android:id="@+id/s4"
+        android:layout_width="125dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/l1"
+        app:layout_constraintTop_toBottomOf="@+id/s3" />
+
+    <TextView
+        android:id="@+id/s3"
+        android:layout_width="125dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/l1"
+        app:layout_constraintTop_toBottomOf="@+id/s2" />
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_width="125dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/l1"
+        app:layout_constraintTop_toBottomOf="@+id/s1" />
+
+    <TextView
+        android:id="@+id/l5"
+        android:layout_width="181dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/l4" />
+
+    <TextView
+        android:id="@+id/l2"
+        android:layout_width="181dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/l1" />
+
+    <TextView
+        android:id="@+id/l3"
+        android:layout_width="181dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/l2" />
+
+    <TextView
+        android:id="@+id/l4"
+        android:layout_width="181dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/l3" />
+
+    <TextView
+        android:id="@+id/l1"
+        android:layout_width="181dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/t3"
+        android:layout_width="270dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:hint="Type chaser firstname"
+        android:inputType="text"
+        android:textColor="#050505"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="270dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:hint="Type player firstname"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="318dp"
+        android:layout_height="131dp"
+        android:background="#00000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logocapy" />
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="270dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:hint="Type USERNAME"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="181dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="LEADERBOARD"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/crown" />
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="125dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="107dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/l1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/capyplay"
+        android:layout_width="103dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bgbutton"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/play"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
